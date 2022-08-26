@@ -1,0 +1,27 @@
+2                                 !! nquant
+5                                !! LL
+1                                 !! KK
+1.d-5                             !! tolerance
+0.2d-15                            !! dt
+1.d-12                            !! tim_tot
+1000000                           !! nsteps_filter
+1                                 !! flag_scale: 1 - scales rho_n for faster convergence with LL according to scheme given by JCP 130, 084105 (2009)
+1                                 !! flag_truncate: 1 - Higher Matsubara frequencies included within Markovian approximation
+0                                 !! flag_spectra: 0-evolve rho; 1-absorption spectra
+5000.d0                          !! gamma (cm-1)
+70.d0                             !! lambda (cm-1)
+1060.d0                           !! omg_0 (cm-1)
+77.d0                             !! temperature (K)
+
+### Hamil_e (cm-1)
+0.d0     87.8d0
+87.8d0   120.d0
+
+### Q_op matrix, For each site, seperated by a blank
+0.5       0.d0
+0.d0      -0.5d0
+
+0.d0   0.d0
+0.d0   0.d0
+
+x
