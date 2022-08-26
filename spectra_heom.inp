@@ -8,7 +8,7 @@
 1                                 !! flag_scale: 1 - scales rho_n for faster convergence with LL according to scheme given by JCP 130, 084105 (2009)
 1                                 !! flag_truncate: 1 - Higher Matsubara frequencies included within Markovian approximation
 0                                 !! flag_spectra: 0-evolve rho; 1-absorption spectra
-2500.d0                          !! gamma (cm-1)
+2500.d0                          !! gamma/2 (cm-1)
 35.d0                             !! lambda (cm-1)
 1060.d0                           !! omg_0 (cm-1)
 77.d0                             !! temperature (K)
